@@ -1,14 +1,18 @@
 <template>
     <div class="flex flex-col min-h-screen">
-        <Header />
-        <Navigation />
-        <main class="flex-grow container mx-auto px-4 py-8">
-            <slot />
-        </main>
-        <Footer />
+      <Header />
+      <Banner />
+      <Navigation />
+      <main class="flex-grow container mx-auto px-4 py-8 overflow-y-auto custom-scroll">
+        <slot />
+      </main>
+      <Footer />
     </div>
-</template>
+  </template>
+  
+  <script setup></script>
+  
+  <style lang="scss">
 
-<script setup></script>
-
-<style lang="scss" scoped></style>
+  </style>
+  

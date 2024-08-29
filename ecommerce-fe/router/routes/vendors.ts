@@ -22,6 +22,24 @@ export default [
       name: 'vendor-product-edit',
       file: '~/pages/vendors/products/productId/edit.vue',
       middleware: ['vendor']
+    }, 
+    {
+      path: '/vendor/categories',
+      name: 'vendor-categories',
+      file: '~/pages/vendors/categories/index.vue',
+      middleware: ['vendor']
+    },
+    {
+      path: '/vendor/categories/create',
+      name: 'vendor-product-create',
+      file: '~/pages/vendors/categories/create.vue',
+      middleware: ['vendor']
+    },
+    {
+      path: '/vendor/categories/:id/edit',
+      name: 'vendor-product-edit',
+      file: '~/pages/vendors/categories/categoryId/edit.vue',
+      middleware: ['vendor']
     },
     {
       path: '/vendor/orders',

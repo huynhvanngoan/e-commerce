@@ -31,7 +31,7 @@ export default defineNuxtConfig({
 
     // CSS toàn cục
     css: ["~/assets/styles/main.css"],
-    image: { dir: "assets/images" },
+    image: { dir: "public/images" },
 
     // Auto-import components
     components: [

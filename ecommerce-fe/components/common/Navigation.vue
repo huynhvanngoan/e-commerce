@@ -10,7 +10,7 @@
                     class="my-1"
                 >
                     <NuxtLink
-                        :to="`/category/${category.id}`"
+                        :to="`/categories/${category.id}`"
                         class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-full transition duration-300 ease-in-out hover:bg-white hover:shadow-lg text-sm md:text-base font-medium"
                     >
                         {{ category.name }}
@@ -28,5 +28,7 @@ const categories = [
     { id: 3, name: "Books" },
     { id: 4, name: "Home & Garden" },
     { id: 5, name: "Sports" },
+    
+    
 ];
 </script>
